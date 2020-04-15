@@ -30,3 +30,10 @@ div{
   a{
       cursor: pointer;
   }
+
+  @media (max-width: 800px) {
+    div {
+      height: 75vw;
+      background-attachment: scroll;
+    } 
+  }
