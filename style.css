@@ -3,30 +3,37 @@ div{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
-  .caroline{
+}
+.caroline{
     background-image: url("assets/caroline.svg");
-  }
-  .draws{
+    background-color: #CC1D02;
+}
+.draws{
     background-image: url("assets/draws.svg");
-  }
-  .sometimes{
+    background-color: #024ECC;
+}
+.sometimes{
     background-image: url("assets/sometimes.svg");
-  }
-  .face{
+    background-color: #FF895C;
+}
+.face{
     background-image: url("assets/face.svg");
-  }
-  /*.grid{
-    background-image: url("assets/instagram.svg");
-    background-color: #00f01a;
-  }*/
-  footer{
-    position:  fixed;
+    background-color: #1CE8FF;
+}
+footer{
+    position: fixed;
     width: 40px;
     bottom: 30px;
     left: 50%;
+    transform: translateX(-50%);
     margin-left: -20px;
-  }
-  a{
-      cursor: pointer;
-  }
+}
+a{
+    cursor: pointer;
+}
+@media (max-width: 800px) {
+  div {
+    height: 75vw;
+    background-attachment: scroll;
+  } 
+}
