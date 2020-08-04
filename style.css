@@ -26,12 +26,11 @@ footer{
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
-    margin-left: -20px;
 }
 a{
     cursor: pointer;
 }
-@media (max-width: 800px) {
+@media(max-width: 800px){
   div {
     height: 75vw;
     background-attachment: scroll;
